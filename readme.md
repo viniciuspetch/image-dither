@@ -1,6 +1,9 @@
 # Image Dither
 My own implementation of a image dithering script.
 
+## Notes
+There's still some kinks to be solved. From some testing, flat colors are still being specked with dots unnecessarily, and there's still generation of leftover files.
+
 ## Requirements
 - Python 3.x
 - pip

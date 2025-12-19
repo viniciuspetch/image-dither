@@ -28,7 +28,7 @@ def getMainColors(image, paletteSize):
     convertedImage = image.convert(
         mode="P", palette=Image.Palette.ADAPTIVE, colors=paletteSize
     )
-    convertedImage.save("converted_output.png")
+    convertedImage.save("_converted_output.png")
     palette = convertedImage.getpalette()
     parsedPalette = []
     for i in range(math.floor(len(palette) / 3)):
