@@ -1,8 +1,10 @@
 # Image Dither
-My own implementation of a image dithering script.
+My own implementation of a image dithering script, made in [Python](https://www.python.org/), with the [numpy](https://numpy.org/) and [pillow](https://pillow.readthedocs.io/en/stable/index.html) packages. Currently it only uses [Floyd-Steinberg's algorithm](https://en.wikipedia.org/wiki/Floyd%E2%80%93Steinberg_dithering) and has only a couple of configurable options.
 
 ## Notes
 There's still some kinks to be solved. From some testing, flat colors are still being specked with dots unnecessarily, and there's still generation of leftover files.
+
+Also due to the focus on implementation and disregard for performance, it may be quite slow for bigger pictures.
 
 ## Requirements
 - Python 3.x
